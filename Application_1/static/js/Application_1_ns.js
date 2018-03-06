@@ -1,1 +1,0 @@
-var Application_1 = {};
