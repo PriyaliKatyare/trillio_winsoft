@@ -1,0 +1,5 @@
+{
+  "name" : "webApp",
+  "type" : "page",
+  "controller" : "AppC"
+}
