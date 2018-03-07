@@ -1,0 +1,15 @@
+{
+  "name" : "mainContainer",
+  "type" : "container",
+  "containerSpecs" : [
+    {
+      "name" : "innerContainer_1",
+      "alignment" : "left",
+      "autoNav" : false,
+      "reference" : "innerContainer",
+      "tag" : "userDefined",
+      "trigger" : "_initial_",
+      "type" : "view"
+    }
+  ]
+}

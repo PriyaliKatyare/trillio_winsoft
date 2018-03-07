@@ -1,0 +1,46 @@
+{
+  "name" : "webApp1",
+  "type" : "page",
+  "displayName" : "Basic Template",
+  "controller" : "AppC",
+  "containerSpecs" : [
+    {
+      "name" : "headerRow",
+      "autoNav" : false,
+      "designTimeHeight" : "49px",
+      "tag" : "templateE",
+      "type" : "row"
+    },
+    {
+      "name" : "mainRow",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "mainContentArea",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "mainContainer_1",
+              "alignment" : "top",
+              "autoNav" : false,
+              "flexGrow" : "1",
+              "reference" : "mainContainer",
+              "tag" : "userDefined",
+              "trigger" : "_initial_/home_",
+              "type" : "view"
+            }
+          ],
+          "designTimeHeight" : "100px",
+          "flexGrow" : "1",
+          "main" : true,
+          "tag" : "templateE",
+          "type" : "column"
+        }
+      ],
+      "flexGrow" : "1",
+      "main" : true,
+      "tag" : "templateE",
+      "type" : "row"
+    }
+  ]
+}

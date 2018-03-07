@@ -1,0 +1,18 @@
+{
+  "name" : "navigation",
+  "type" : "nav",
+  "html" : "<ul data-container=\"\" class=\"nav nav-pills\" name=\"navigation\" nm=\"navigation\">\n  <li data-child-type=\"menuItem\" class=\"nav-item\">\n    <a data-trigger=\"\" class=\"nav-link js-menu-item\" href=\"#\" name=\"feedback\" nm=\"feedback\">\n      Feedback\n    </a>\n  </li>\n</ul>\n\n",
+  "actionSpecs" : [
+    {
+      "name" : "feedback",
+      "type" : "view"
+    }
+  ],
+  "hierSpecs" : [
+    {
+      "name" : "menuItem1",
+      "displayName" : "Menu Item 1",
+      "type" : "menuItem"
+    }
+  ]
+}
