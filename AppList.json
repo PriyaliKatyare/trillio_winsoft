@@ -1,6 +1,21 @@
 [
   {
     "appTemplate" : "webapp",
+    "description" : "Welcome to home...",
+    "displayName" : "Trillio Test 2",
+    "htmlHeadTitle" : "Welcome to home...",
+    "keywords" : "trillio home",
+    "linkedApp" : "shared",
+    "multiBranch" : true,
+    "name" : "Trillio_Test2",
+    "requiredRoles" : "none",
+    "trilloVersion" : "2.0",
+    "usingEnumsCatalog" : true,
+    "usingStringFiles" : true,
+    "usingViewSpecs" : true
+  },
+  {
+    "appTemplate" : "webapp",
     "displayName" : "app two",
     "htmlHeadTitle" : "test ",
     "keywords" : "fdf",
@@ -10,20 +25,6 @@
     "requiredRoles" : "none",
     "trilloVersion" : "2.0",
     "useTestData" : true,
-    "usingEnumsCatalog" : true,
-    "usingStringFiles" : true,
-    "usingViewSpecs" : true
-  },
-  {
-    "appTemplate" : "webapp",
-    "displayName" : "Trillio Test 2",
-    "htmlHeadTitle" : "Welcome to home...",
-    "keywords" : "trillio home",
-    "linkedApp" : "shared",
-    "multiBranch" : true,
-    "name" : "Trillio_Test2",
-    "requiredRoles" : "none",
-    "trilloVersion" : "2.0",
     "usingEnumsCatalog" : true,
     "usingStringFiles" : true,
     "usingViewSpecs" : true
